@@ -33,3 +33,20 @@ Click Run ▶ to test it on an emulator or real device
 Step 3: Required Configurations
 Minimum SDK: API Level 21 (Lollipop)
 Target SDK: API Level 34 (Latest)
+
+
+MCQ-Quiz-App/
+│── app/
+│   ├── src/main/java/com/example/quizapp/
+│   │   ├── SplashActivity.java
+│   │   ├── MainActivity.java
+│   │   ├── QuizActivity.java
+│   │   ├── ResultActivity.java
+│   ├── src/main/res/layout/
+│   │   ├── activity_splash.xml
+│   │   ├── activity_main.xml
+│   │   ├── activity_quiz.xml
+│   │   ├── activity_result.xml
+│   ├── src/main/res/anim/
+│   │   ├── fade_in.xml
+│   ├── src/main/AndroidManifest.xml
