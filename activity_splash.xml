@@ -3,13 +3,12 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:gravity="center"
-    android:background="#2D4F4F"
-    android:orientation="vertical">
+    android:background="@android:color/white">
 
     <ImageView
         android:id="@+id/logo"
         android:layout_width="150dp"
         android:layout_height="150dp"
-        android:src="@mipmap/ic_launcher" />
-
+        android:src="@mipmap/ic_launcher"
+        android:contentDescription="App Logo"/>
 </LinearLayout>
